@@ -6,3 +6,5 @@ const UserSchema = new Schema({
     email: {type:String , required : true ["Email is a must"], unique : true},
     password: {type:String , required : true ["Password is a must"]}
 })
+
+module.exports = mongoose.model('user', UserSchema);
