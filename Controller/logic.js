@@ -6,5 +6,8 @@ module.exports = {
         user.create()
         res.status(200)
             "Added successfully"
+    },
+    add:async(req,res)=>{
+        res.send("successfully ")
     }
 }
