@@ -8,6 +8,7 @@ module.exports = {
             "Added successfully"
     },
     add:async(req,res)=>{
+        user.find()
         res.send("successfully ")
     }
 }
